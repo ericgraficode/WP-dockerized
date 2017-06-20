@@ -1,5 +1,4 @@
-
-![wp_docker_h-dark-trans](https://cloud.githubusercontent.com/assets/26068468/25566248/99f94680-2dd5-11e7-853d-cc770c7672fb.jpg)
+![docker_logo_wordpress_installation_github](https://user-images.githubusercontent.com/26068468/27344127-8f2f4a96-55e5-11e7-9b29-aa4c860e046b.jpg)
 
 
 Docker setup of local Wordpress, docker will handle the installation of all the services necessary for a Wordpress installation in its own containers therefore wont be necessary to install this services in the local machine.
