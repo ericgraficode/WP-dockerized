@@ -7,8 +7,10 @@
     },
 
     "scripts": {
+        "wpupdate"   :"cd wordpress/ && wp core download && rm -rf wp-content/ && wp-config-sample.php &&",
+        "wpversion"  :"docker exec -ti wpdockerized_wordpress_1 sh -c 'cd ../../../usr/src/wordpress && grep wp_version wp-includes/version.php'",
         "populate"   :"docker exec -i docker_mysql_1 mysql -uroot -pwp kraken < ./database/wp_database.sql",
-        "dump"       :"docker exec -i docker_mysql_1 mysqldump -uroot -pwp kraken > ./database/wp_database.sql",
+        "dump"       :"docker exec -i docker_mysql_1 mysqldump -uroot -pwp kraken > ./database/wp_database.sql"
     },
 
     "repository": {
