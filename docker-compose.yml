@@ -6,6 +6,7 @@ services:
       - ./wp-content:/var/www/wp-content
       - ./wordpress/:/usr/src/wordpress/
     env_file: .env
+    hostname: example.com
     ports:
       - "8080:80"
     links:
