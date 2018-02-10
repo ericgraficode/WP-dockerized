@@ -8,7 +8,7 @@ services:
     env_file: .env
     hostname: example.com
     ports:
-      - "8080:80"
+      - "80:80"
     links:
       - mysql
       - redis
