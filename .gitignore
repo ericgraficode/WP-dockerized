@@ -1,16 +1,6 @@
 # exclude everything
-wp-content/*
-mysql/*
 redis/*
 
-# exception to the rule
 
-!wp-content/themes/twentyseventeen/
 
-!wp-content/plugins/.gitkeep
 
-!wp-content/upgrade/.gitkeep
-
-!wp-content/uploads/.gitkeep
-
-!mysql/.gitkeep
