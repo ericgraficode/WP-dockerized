@@ -1,6 +1,7 @@
 # exclude everything
 redis/*
-
+mysql/
+wp-content/
 
 
 
