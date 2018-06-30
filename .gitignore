@@ -1,8 +1,9 @@
 # exclude everything
 redis/*
 mysql/*
+wordpress/*
 wp-content/*
-wp-imcludes/*
+
 
 
 
